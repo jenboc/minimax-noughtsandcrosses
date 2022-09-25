@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Bungee+Spice&display=swap');
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score {
+    font-family: "Bungee Spice";
+    font-size: 50pt;
+}
+
+
+#grid {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.spot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+
+    font-size: 100pt;
+    font-family: "Archivo";
+}
